@@ -1,0 +1,18 @@
+#scores {
+    width: 790px;
+    margin: 5px;
+    font-family: Verdana, sans-serif;
+}
+
+#playerScore {
+    float: left;
+}
+
+#cpuScore {
+    float: right;
+}
+
+#diffSelect {
+    width: 200px;
+    margin: 0 0 5px 300px;
+}
