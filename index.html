@@ -9,19 +9,21 @@
   </head>
 
   <body>
-    <form>
-      <select name="diffSelect" id="diffSelect" onchange="diffSelection(this);">
-        <option value="0" disabled selected hidden>Select...</option>
-        <option value="1">Easy</option>
-        <option value="2">Medium</option>
-        <option value="3">Hard</option>
-      </select>
-    </form>
-    <canvas id="game" width="800" height="600"></canvas>
-    <div id="scores">
-      <span id="playerScore">Player: 0</span>
-      <span id="textbox" class="hide"></span>
-      <span id="cpuScore">CPU: 0</span>
+    <div id="container">
+      <form>
+        <select name="diffSelect" id="diffSelect" onchange="diffSelection(this);">
+          <option value="0" disabled selected hidden>Select...</option>
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+      </form>
+      <canvas id="game" width="800" height="600"></canvas>
+      <div id="scores">
+        <span id="playerScore">Player: 0</span>
+        <span id="textbox" class="hide"></span>
+        <span id="cpuScore">CPU: 0</span>
+      </div>
     </div>
   </body>
 </html>

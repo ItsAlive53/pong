@@ -1,3 +1,10 @@
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #scores {
     width: 790px;
     margin: 5px;
